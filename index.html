@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>HTML Form Controls</title>
+</head>
+
+<body>
+  <h1 style="text-align: center;">HTML From Controls</h1>
+
+
+  <!-- <h2>Search</h2> -->
+  <h1>Search</h1>
+  <div class="search1" style="min-height: 40px">
+    <form action="https://www.youtube.com/results" target="_blank">
+      <input type="search" name="search_query" id="" /> // 
+      <button class="search-btn1">Youtube Search</button>
+    </form>
+  </div>
+  <br />
+  <div class="search2" style="min-height: 40px">
+    <form action="https://www.flipkart.com/search" target="_blank">
+      <input type="search" name="q" id="" />
+      <button class="search-btn2">Flipkart Search</button>
+    </form>
+  </div>
+  <br />
+  <div class="search4" style="min-height: 40px">
+    <form action="https://www.amazon.com/s/ref=nb_sb_noss" target="_blank">
+      <input type="search" name="field-keywords" id="" />
+      <button class="search-btn3">Amazon Search</button>
+    </form>
+  </div>
+  <br />
+  <div class="search3" style="min-height: 40px">
+    <form action="https://www.google.com/search" target="_blank">
+      <input type="search" name="q" id="" />
+      <button class="search-btn2">Google Search</button>
+    </form>
+  </div>
+
+  <br />
+  <div class="search5" style="min-height: 40px">
+    <form action="https://www.flipkart.com/search" target="_blank">
+      <input type="search" name="a" id="" />
+      <input type="search" name="b" id="" />
+      <!-- <input type="search" name="q" id="" /> -->
+      <button class="search-btn4">My Search</button>
+    </form>
+  </div>
+  <hr>
+  <div class="gray">
+    <form action="">
+      <h2>Text</h2>
+      <input type="text" name="" id="" placeholder="Write message" />
+      <button>Send</button>
+    </form>
+  </div>
+  <hr>
+  <form action="">
+    <h2>Password</h2>
+    <!-- <input type="password" name="" id="" placeholder="Enter your password" minlength="6" required/> -->
+    <input type="password" name="" id="" placeholder="Enter your password" maxlength="8" required />
+    <!-- Min or Max length can also be set in password input -->
+    <!--required means "Please fill out this field."-->
+    <button>OK</button>
+  </form>
+  <hr>
+  <div class="gray">
+    <form action="">
+      <h2>Number</h2>
+      <input type="number" name="" id="" max="10" placeholder="Select a number" /> <!--min or max values can be set-->
+      <button>OK</button>
+    </form>
+  </div>
+  <hr>
+  <form action="">
+    <h2>Radio</h2>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male" />
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female" />
+  </form>
+  <hr>
+  <div class="gray">
+    <form action="">
+      <h2>Checkbox</h2>
+      <label for="interested">Interested</label>
+      <input type="checkbox" value="" name="" id="interested" />
+      <label for="not-interested">Not Interested</label>
+      <input type="checkbox" value="" name="" id="not-interested" />
+    </form>
+  </div>
+  <hr>
+  <form action="">
+    <h2>Email</h2>
+    <input type="email" name="" id="" placeholder="Enter your email" />
+    <button type="menu">Send</button>
+  </form>
+  <hr>
+  <div class="gray">
+    <form action="">
+      <h2>Telephone</h2>
+      <input type="tel" name="" id="" />
+      <button>Send</button>
+    </form>
+  </div>
+  <hr>
+  <form action="">
+    <h2>Website URL:</h2>
+    <input type="url" name="" id="" />
+    <button>Send</button>
+  </form>
+  <hr>
+  <div class="gray">
+    <form action="">
+      <h2>Date</h2>
+      <input type="date" name="" id="" />
+    </form>
+  </div>
+  <hr>
+  <form action="">
+    <h2>Time</h2>
+    <input type="time" name="" id="" />
+  </form>
+  <hr>
+  <div class="gray">
+    <form action="">
+      <h2>Date/ Time</h2>
+      <input type="datetime-local" name="" id="" />
+    </form>
+  </div>
+  <hr>
+  <form action="">
+    <h2>Week</h2>
+    <input type="week" name="" id="" />
+  </form>
+  <hr>
+  <div class="gray">
+    <form action="">
+      <h2>Month</h2>
+      <input type="month" name="" id="" />
+      <button>OK</button>
+    </form>
+  </div>
+  <hr>
+  <form action="">
+    <h2>Color</h2>
+    <input type="color" name="" id="" />
+  </form>
+  <hr>
+  <div class="gray">
+    <form action="">
+      <h2>Range</h2>
+      HTML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="range" name="html" id="html" min="0" max="100" value="100"
+        step="10" style="accent-color: rgb(241, 132, 29);" />
+      <br>
+      CSS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="range" name="css" id="css" min="0"
+        max="100" value="80" step="10" />
+      <br>
+      JavaScript<input type="range" name="js" id="js" min="0" max="100" value="100" step="10"
+        style="accent-color: yellow;" />
+    </form>
+  </div>
+  <hr>
+  <form action="">
+    <h2>Button</h2>
+    <input type="button" value="I'm just a button" />
+  </form>
+  <hr>
+  <div class="gray">
+    <form action="">
+      <h2>Submit</h2>
+      <input type="submit" name="" id="" />
+    </form>
+  </div>
+  <hr>
+  <form action="">
+    <h2>File</h2>
+    <input type="file" name="" id="" />
+    <button>Upload</button>
+  </form>
+  <hr>
+  <div class="gray">
+    <form action="/">
+      <h2>Reset</h2>
+      <label for="f-name">Name:</label>
+      <input type="text" name="" id="f-name" placeholder="First Name">
+      <input type="text" name="" id="f-name" placeholder="Last Name">
+      <input type="reset" name="" id="" />
+    </form>
+  </div>
+  <hr>
+  <!-- OR -->
+  <!-- <form action="/">
+  <h2>Reset Button (Working) </h2>
+  First Name: <input type="text" name="f-name" id=""><br>
+  Last Name: <input type="text" name="l-name" id=""><br>
+  <button type="reset">Reset</button>
+  </form> -->
+
+</body>
+
+</html>
